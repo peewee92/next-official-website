@@ -27,6 +27,19 @@ export default function Project() {
       <Nav />
       
       <div className="welcome">
+        
+          <div ref={ref4} className={`welcome-right ${isVisible4 ? "animate__animated animate__rotateIn": ""}`} >
+            <img src="https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png" alt=''></img> 
+          </div>
+      
+        <div className="welcome-left" style={{width:'75%'}}>
+          <h4 className="welcome-title">Real-World Assets (RWA)</h4>
+          <p className="welcome-content">Most notably, GoodmorningNetwork plans to integrate real-world assets or products, referred to as RWA, through blockchain technology. This offers endless possibilities for interaction between the real and digital worlds, drawing them closer together than ever before.</p>
+          <p className="welcome-content welcome-rwa">GoodmorningNetwork is more than just a cryptocurrency platform; it's a multifaceted network ecosystem with multiple layers of incentives and a high degree of interactivity. By seamlessly integrating with real-world assets and the virtual gaming economy, GoodmorningNetwork is redefining the boundaries between digital and real assets, marking another significant milestone in the maturation of blockchain technology. Join GoodmorningNetwork to experience this innovative, diverse, and highly integrated new world.</p>
+        </div>
+      </div>
+      
+      <div className="welcome">
         <div className="welcome-right">
           <h4 className="welcome-title">About GoodMorningNetWork</h4>
           <p className="welcome-content">An Innovative Cryptocurrency Platform Bridging the Gap Between the Real and Virtual Worlds!</p>
@@ -72,39 +85,6 @@ export default function Project() {
           <img src='https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png' />
         </div>
         
-      </div>
-
-      <div className="welcome">
-        
-          <div ref={ref4} className={`welcome-right ${isVisible4 ? "animate__animated animate__rotateIn": ""}`} >
-            <img src="https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png" alt=''></img> 
-          </div>
-      
-        <div className="welcome-left" style={{width:'75%'}}>
-          <h4 className="welcome-title">Real-World Assets (RWA)</h4>
-          <p className="welcome-content">Most notably, GoodmorningNetwork plans to integrate real-world assets or products, referred to as RWA, through blockchain technology. This offers endless possibilities for interaction between the real and digital worlds, drawing them closer together than ever before.</p>
-          <p className="welcome-content welcome-rwa">GoodmorningNetwork is more than just a cryptocurrency platform; it's a multifaceted network ecosystem with multiple layers of incentives and a high degree of interactivity. By seamlessly integrating with real-world assets and the virtual gaming economy, GoodmorningNetwork is redefining the boundaries between digital and real assets, marking another significant milestone in the maturation of blockchain technology. Join GoodmorningNetwork to experience this innovative, diverse, and highly integrated new world.</p>
-          {/* <div className="game-list">
-            <div className="game-list-item">
-              <a src="" ></a>
-              <span className="game-list-item-icon"></span>
-              <span>Broken link</span>
-            </div>
-            <div className="game-list-item">
-              <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/building/road-map">
-                <span className="game-list-item-icon">🗺</span>
-                <span>Road Map</span>
-              </ a>
-              
-            </div> 
-            <div className="game-list-item">
-              <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/building/white-paper">
-                <span className="game-list-item-icon">📜</span>
-                <span>White Paper</span>
-              </ a>
-            </div> 
-          </div> */}
-        </div>
       </div>
 
       <Footer />
