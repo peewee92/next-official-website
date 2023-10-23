@@ -1,0 +1,52 @@
+.game-wrap {
+    width: 1024px;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .left {
+        p {
+            font-family: "Rigid Square Regular", sans-serif;
+            font-size: 18px;
+          }
+    }
+    .nav-wrap {
+      margin-top: 20px;
+      width: 160px;
+    }
+    .nav-item {
+      display: flex;
+      padding-bottom: 20px;
+      cursor: pointer;
+
+      &:hover {
+        color: rgba(52,109,219,1.00); // 鼠标悬停时的样式
+      }
+
+      .nav-item-title {
+          padding-left: 20px;
+      }
+    }
+}
+
+.game-content {
+    padding-left: 40px;
+  h4 {
+    font-family: "Rigid Square Regular", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+  } 
+  p {
+    color: rgba(136,153,168,1.00);
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .game-text {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  img {
+    padding-top: 30px;
+    margin: 0 auto;
+  }
+}

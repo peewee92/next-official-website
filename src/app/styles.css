@@ -1,0 +1,48 @@
+
+.top-nav {
+  padding-top: 10px;
+}
+
+.welcome {
+  display: flex;
+  padding: 40px 100px 0 100px;
+  align-items: center;
+}
+
+.welcome-title {
+  flex:1;
+  font-size: 60px;
+  font-family: "Rigid Square Regular", sans-serif;
+  line-height: 60px;
+  font-family: var(--font-poppins);
+}
+
+.welcome-content {
+  margin-top: 20px;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: Rubik;
+  color: rgb(191, 199, 212);
+}
+
+.welcome-left {
+  padding-top: 150px;
+}
+
+.game-list {
+  display: flex;
+  margin-top: 20px;
+}
+
+.game-list-item {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.game-list-item-icon {
+  margin-right: 10px;
+}
+
+.welcome-rwa {
+  margin-bottom: 80px;
+}
