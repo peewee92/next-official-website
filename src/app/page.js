@@ -60,19 +60,19 @@ export default function Home() {
           <p className="welcome-content">We've put together a guide so you can easily know how to get involved in GoodmorningNetwork's GameMining!</p>
           <div className="game-list">
             <div className="game-list-item">
-              <a href="/game?game_type=1" >
+              <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-pubg" >
                 <span className="game-list-item-icon">🔫</span>
                 <span>How-to-Pubg</span>
               </a>
             </div>
             <div className="game-list-item">
-              <a href="/game?game_type=2">
+              <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-dota2">
                 <span className="game-list-item-icon">🎮</span>
                 <span>how-to-Dota2</span>
               </a>
             </div> 
             <div className="game-list-item">
-              <a href="/game?game_type=3">
+              <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-naraka">
                 <span className="game-list-item-icon">🗡</span>
                 <span>How-to-Naraka</span>
               </a>

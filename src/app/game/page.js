@@ -66,7 +66,101 @@ export default function Home() {
     <main className="flex flex-col items-center justify-between p-1">
       <Nav />
       <div className="game-wrap">
-        <div className="left">
+        <div className="header">
+          <h6>HAVE A LOOK AT OUR</h6>
+          <h1>Play2Earn Games</h1>
+        </div>
+        <div className="game-item">
+          <div className="game-text-wrap game-text-wrap1">
+            <h2>How-to-Store</h2>
+            <div className="game-text-content">GamingPass is an important part of the Gaming ecosystem, and buying and using it can give you high Gaming rewards!</div>
+            <div className="introduce">
+              <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-store">
+                <span className="key">Connect</span>
+                <span className="value">Click Here</span>
+              </a>
+            </div>  
+          </div>
+          <div className="game-img-wrap game-img-wrap1">
+            <img src='https://neoxa.net/wp-content/uploads/elementor/thumbs/rust-neoxa-image-qdeq0174d82jzr8jybkmg9qrslg0s04l89t7rfnaio.jpeg' />
+          </div>
+        </div>
+        <div className="game-item">
+          <div className="game-img-wrap game-img-wrap2">
+            <img src='https://neoxa.net/wp-content/uploads/elementor/thumbs/rust-neoxa-image-qdeq0174d82jzr8jybkmg9qrslg0s04l89t7rfnaio.jpeg' />
+          </div>
+          <div className="game-text-wrap game-text-wrap2">
+            <h2>Pubg</h2>
+            <div className="game-text-content">layerUnknown's Battlegrounds (PUBG) is a highly popular battle royale game that has taken the gaming world by storm. Developed and published by PUBG Corporation, a subsidiary of South Korean video game company Bluehole, PUBG offers an exhilarating and intense gaming experience.</div>
+            <div className="introduce">
+              <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-pubg">
+                <span className="key">Connect</span>
+                <span className="value">Click Here</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="game-item">
+          <div className="game-text-wrap game-text-wrap1">
+            <h2>Dota2</h2>
+            <div className="game-text-content">Dota 2, short for "Defense of the Ancients 2," is a critically acclaimed multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. Released in 2013, it quickly became one of the most popular and competitive titles in the esports world.</div>
+            <div className="introduce">
+              <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-dota2">
+                <span className="key">Connect</span>
+                <span className="value">Click Here</span>
+              </a>
+            </div>  
+          </div>
+          <div className="game-img-wrap game-img-wrap1">
+            <img src='https://neoxa.net/wp-content/uploads/elementor/thumbs/rust-neoxa-image-qdeq0174d82jzr8jybkmg9qrslg0s04l89t7rfnaio.jpeg' />
+          </div>
+        </div>
+        <div className="game-item">
+          <div className="game-img-wrap game-img-wrap2">
+            <img src='https://neoxa.net/wp-content/uploads/elementor/thumbs/rust-neoxa-image-qdeq0174d82jzr8jybkmg9qrslg0s04l89t7rfnaio.jpeg' />
+          </div>
+          <div className="game-text-wrap game-text-wrap2">
+            <h2>Naraka</h2>
+            <div className="game-text-content">Naraka: Bladepoint is an exciting and visually stunning multiplayer action game developed and published by 24 Entertainment. Set in a mythical world inspired by ancient Eastern legends, Naraka offers a unique and intense battle royale experience.</div>
+            <div className="introduce">
+              <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-naraka">
+                <span className="key">Connect</span>
+                <span className="value">Click Here</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="game-item">
+          <div className="game-text-wrap game-text-wrap1">
+            <h2>League of Legends</h2>
+            <div className="game-text-content">GamingPass is an important part of the Gaming ecosystem, and buying and using it can give you high Gaming rewards!</div>
+            <div className="introduce">
+              <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-league-of-legends">
+                <span className="key">Connect</span>
+                <span className="value">Click Here</span>
+              </a>
+            </div>  
+          </div>
+          <div className="game-img-wrap game-img-wrap1">
+            <img src='https://neoxa.net/wp-content/uploads/elementor/thumbs/rust-neoxa-image-qdeq0174d82jzr8jybkmg9qrslg0s04l89t7rfnaio.jpeg' />
+          </div>
+        </div>
+        <div className="game-item">
+          <div className="game-img-wrap game-img-wrap2">
+            <img src='https://neoxa.net/wp-content/uploads/elementor/thumbs/rust-neoxa-image-qdeq0174d82jzr8jybkmg9qrslg0s04l89t7rfnaio.jpeg' />
+          </div>
+          <div className="game-text-wrap game-text-wrap2">
+            <h2>Rust</h2>
+            <div className="game-text-content">Rust is an open-world multiplayer survival game developed by Facepunch Studios. Released in 2013, it has gained immense popularity for its challenging and unforgiving gameplay.</div>
+            <div className="introduce">
+              <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-rust">
+                <span className="key">Connect</span>
+                <span className="value">Click Here</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* <div className="left">
           <p>Gaming</p>
           <div className="nav-wrap">
             {navList.map((item, index) => {
@@ -86,7 +180,7 @@ export default function Home() {
           { navIndex == 3 && <Naraka /> }
           { navIndex == 4 && <Lol /> }
           { navIndex == 5 && <Rust /> }
-        </div>
+        </div> */}
       </div>
       <Footer />
     </main>

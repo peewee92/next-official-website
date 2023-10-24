@@ -38,7 +38,7 @@ export default function Nav() {
         rel="noopener noreferrer"
       >
         <h2 className={``}>
-          Gaming{" "}
+         Gaming{" "}
           <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
             -&gt;
           </span>

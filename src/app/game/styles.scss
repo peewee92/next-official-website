@@ -1,6 +1,5 @@
 .game-wrap {
-    width: 1024px;
-    display: flex;
+    // width: 1024px;
     padding-top: 40px;
     padding-bottom: 40px;
     .left {
@@ -24,6 +23,83 @@
 
       .nav-item-title {
           padding-left: 20px;
+      }
+    }
+
+    .header {
+      width: 1024px;
+      margin: 0 auto;
+      h6 {
+        font-family: 'Zen Dots',display;
+        font-size: 1rem
+      }
+      h1 {
+        margin-top: 20px;
+        font-size: 6.25rem
+      }
+    }
+
+    .game-item {
+      position: relative;
+      overflow: hidden;
+      height: 708px;
+      width: 100vw;
+      margin-top: 20px;
+
+      .game-text-wrap {
+        position: absolute;
+        background-color: #293545;
+        padding: 10% 25% 11% 8%;
+        width: 60%;
+
+        h2 {
+          font-size: 3rem;
+        }
+
+        .game-text-content {
+          margin-top: 20px;
+          line-height: 2;
+        }
+      }
+
+      .game-text-wrap1 {
+        top: 20px;
+        left: 0px;
+      }
+
+      .game-img-wrap {
+        position: absolute;
+        height: 600px;
+        img {
+          scale: 0.9;
+        }
+      }
+
+      .game-img-wrap1 {
+        top: 90px;
+        right: 20px;
+      }
+
+      .game-img-wrap2 {
+        left: 0px !important;
+      }
+
+      .game-text-wrap2 {
+        right: 0px !important;
+      }
+
+      .introduce {
+        margin-top: 20px;
+
+        .value {
+          cursor: pointer;
+          margin-left: 10px;
+          color: #babec3;
+
+        }
+        .value:hover {
+          color: #fff;
+        }
       }
     }
 }
