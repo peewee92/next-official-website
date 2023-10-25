@@ -34,7 +34,7 @@
         font-size: 1rem
       }
       h1 {
-        margin-top: 20px;
+        // margin-top: 20px;
         font-size: 6.25rem
       }
     }
@@ -44,13 +44,14 @@
       overflow: hidden;
       height: 708px;
       width: 100vw;
-      margin-top: 20px;
+      // margin-top: 20px;
 
       .game-text-wrap {
         position: absolute;
         background-color: #293545;
-        padding: 10% 25% 11% 8%;
-        width: 60%;
+        // padding: 10% 20% 11% 8%;
+        width: 50%;
+        padding: 180px;
 
         h2 {
           font-size: 3rem;
@@ -63,21 +64,28 @@
       }
 
       .game-text-wrap1 {
-        top: 20px;
+        // top: 20px;
         left: 0px;
+        width: 719px;
+        height: 719px;
       }
 
       .game-img-wrap {
         position: absolute;
-        height: 600px;
+        // height: 600px;
+        height: 719px;
+        .store-img {
+          width: 719px;
+        }
         img {
-          scale: 0.9;
+          width: 719px;
         }
       }
 
       .game-img-wrap1 {
-        top: 90px;
-        right: 20px;
+        // top: 90px;
+        // right: 20px;
+        right: 0;
       }
 
       .game-img-wrap2 {
@@ -85,7 +93,11 @@
       }
 
       .game-text-wrap2 {
+        // width: 50%;
+        width: 719px;
+        height: 719px;
         right: 0px !important;
+        
       }
 
       .introduce {

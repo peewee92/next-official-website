@@ -33,16 +33,16 @@ export default function Project() {
           </div>
       
         <div className="welcome-left" style={{width:'75%'}}>
-          <h4 className="welcome-title">Real-World Assets (RWA)</h4>
-          <p className="welcome-content">Most notably, GoodmorningNetwork plans to integrate real-world assets or products, referred to as RWA, through blockchain technology. This offers endless possibilities for interaction between the real and digital worlds, drawing them closer together than ever before.</p>
-          <p className="welcome-content welcome-rwa">GoodmorningNetwork is more than just a cryptocurrency platform; it's a multifaceted network ecosystem with multiple layers of incentives and a high degree of interactivity. By seamlessly integrating with real-world assets and the virtual gaming economy, GoodmorningNetwork is redefining the boundaries between digital and real assets, marking another significant milestone in the maturation of blockchain technology. Join GoodmorningNetwork to experience this innovative, diverse, and highly integrated new world.</p>
+          <h4 className="welcome-title font-Zen">Real-World Assets (RWA)</h4>
+          <p className="welcome-content font-Montserrat">Most notably, GoodmorningNetwork plans to integrate real-world assets or products, referred to as RWA, through blockchain technology. This offers endless possibilities for interaction between the real and digital worlds, drawing them closer together than ever before.</p>
+          <p className="welcome-content font-Montserrat welcome-rwa">GoodmorningNetwork is more than just a cryptocurrency platform; it's a multifaceted network ecosystem with multiple layers of incentives and a high degree of interactivity. By seamlessly integrating with real-world assets and the virtual gaming economy, GoodmorningNetwork is redefining the boundaries between digital and real assets, marking another significant milestone in the maturation of blockchain technology. Join GoodmorningNetwork to experience this innovative, diverse, and highly integrated new world.</p>
         </div>
       </div>
       
       <div className="welcome">
         <div className="welcome-right">
-          <h4 className="welcome-title">About GoodMorningNetWork</h4>
-          <p className="welcome-content">An Innovative Cryptocurrency Platform Bridging the Gap Between the Real and Virtual Worlds!</p>
+          <h4 className="welcome-title font-Zen">About GoodMorning NetWork</h4>
+          <p className="welcome-content font-Montserrat">An Innovative Cryptocurrency Platform Bridging the Gap Between the Real and Virtual Worlds!</p>
         </div>
         <div ref={ref1} className={`welcome-right ${isVisible1 ? "animate__animated animate__rotateIn": ""}`}>
           <img src='https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png' />
@@ -56,15 +56,15 @@ export default function Project() {
           </div>
       
         <div className="welcome-left" style={{width:'75%'}}>
-          <h4 className="welcome-title">Overview</h4>
-          <p className="welcome-content" >In an increasingly digitized and decentralized world, cryptocurrency and blockchain technology are gaining unprecedented attention. Standing at the forefront of this tide, GoodmorningNetwork offers not just a novel cryptocurrency built on a Proof-of-Work (PoW) consensus mechanism, but also innovatively intertwines real-world assets (RWA) with the virtual gaming economy. With its unique block participant incentives, gaming reward tokens, and masternode incentives, GoodmorningNetwork aims to create a comprehensive, reliable, and highly interactive ecosystem.</p>
+          <h4 className="welcome-title font-Zen">Overview</h4>
+          <p className="welcome-content font-Montserrat">In an increasingly digitized and decentralized world, cryptocurrency and blockchain technology are gaining unprecedented attention. Standing at the forefront of this tide, GoodmorningNetwork offers not just a novel cryptocurrency built on a Proof-of-Work (PoW) consensus mechanism, but also innovatively intertwines real-world assets (RWA) with the virtual gaming economy. With its unique block participant incentives, gaming reward tokens, and masternode incentives, GoodmorningNetwork aims to create a comprehensive, reliable, and highly interactive ecosystem.</p>
         </div>
       </div>
 
       <div className="welcome">
         <div className="welcome-left" style={{width:'75%'}}>
-          <h4 className="welcome-title">Gaming Reward coins</h4>
-          <p className="welcome-content">For users who revel in the virtual gaming world, GoodmorningNetwork offers an entirely new way to profit. By playing popular games like PUBG, LOL, NARAKA, DOTA2, and CSGO, users can earn 20% of gaming reward tokens. This not only enhances user engagement but also builds a bridge between the virtual gaming world and the cryptocurrency sphere.</p>
+          <h4 className="welcome-title font-Zen">Gaming Reward coins</h4>
+          <p className="welcome-content font-Montserrat">For users who revel in the virtual gaming world, GoodmorningNetwork offers an entirely new way to profit. By playing popular games like PUBG, LOL, NARAKA, DOTA2, and CSGO, users can earn 20% of gaming reward tokens. This not only enhances user engagement but also builds a bridge between the virtual gaming world and the cryptocurrency sphere.</p>
           {/* <div className="game-list">
             <div className="game-list-item">
               <a src="" ></a>

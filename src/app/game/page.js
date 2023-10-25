@@ -68,13 +68,13 @@ export default function Home() {
       <div className="game-wrap">
         <div className="header">
           <h6>HAVE A LOOK AT OUR</h6>
-          <h1>Play2Earn Games</h1>
+          <h1 className="font-Montserrat">Play2Earn Games</h1>
         </div>
         <div className="game-item">
           <div className="game-text-wrap game-text-wrap1">
-            <h2>How-to-Store</h2>
-            <div className="game-text-content">GamingPass is an important part of the Gaming ecosystem, and buying and using it can give you high Gaming rewards!</div>
-            <div className="introduce">
+            <h2 className="font-Zen">How-to-Store</h2>
+            <div className="game-text-content font-Montserrat">GamingPass is an important part of the Gaming ecosystem, and buying and using it can give you high Gaming rewards!</div>
+            <div className="introduce font-Montserrat">
               <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-store">
                 <span className="key">Connect</span>
                 <span className="value">Click Here</span>
@@ -82,17 +82,17 @@ export default function Home() {
             </div>  
           </div>
           <div className="game-img-wrap game-img-wrap1">
-            <img src='https://neoxa.net/wp-content/uploads/elementor/thumbs/rust-neoxa-image-qdeq0174d82jzr8jybkmg9qrslg0s04l89t7rfnaio.jpeg' />
+            <img className="store-img" src='https://img.cryptopolitan.com/wp-content/uploads/2023/09/photo_5794422769847484159_y.jpg' />
           </div>
         </div>
         <div className="game-item">
           <div className="game-img-wrap game-img-wrap2">
-            <img src='https://neoxa.net/wp-content/uploads/elementor/thumbs/rust-neoxa-image-qdeq0174d82jzr8jybkmg9qrslg0s04l89t7rfnaio.jpeg' />
+            <img className="store-img" src='https://www.gamespot.com/a/uploads/scale_landscape/1597/15971423/3925371-4760795642-33311.jpg' />
           </div>
           <div className="game-text-wrap game-text-wrap2">
-            <h2>Pubg</h2>
-            <div className="game-text-content">layerUnknown's Battlegrounds (PUBG) is a highly popular battle royale game that has taken the gaming world by storm. Developed and published by PUBG Corporation, a subsidiary of South Korean video game company Bluehole, PUBG offers an exhilarating and intense gaming experience.</div>
-            <div className="introduce">
+            <h2 className="font-Zen">Pubg</h2>
+            <div className="game-text-content font-Montserrat">layerUnknown's Battlegrounds (PUBG) is a highly popular battle royale game that has taken the gaming world by storm. Developed and published by PUBG Corporation, a subsidiary of South Korean video game company Bluehole, PUBG offers an exhilarating and intense gaming experience.</div>
+            <div className="introduce font-Montserrat">
               <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-pubg">
                 <span className="key">Connect</span>
                 <span className="value">Click Here</span>
@@ -102,9 +102,9 @@ export default function Home() {
         </div>
         <div className="game-item">
           <div className="game-text-wrap game-text-wrap1">
-            <h2>Dota2</h2>
-            <div className="game-text-content">Dota 2, short for "Defense of the Ancients 2," is a critically acclaimed multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. Released in 2013, it quickly became one of the most popular and competitive titles in the esports world.</div>
-            <div className="introduce">
+            <h2 className="font-Zen">Dota2</h2>
+            <div className="game-text-content font-Montserrat">Dota 2, short for "Defense of the Ancients 2," is a critically acclaimed multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. Released in 2013, it quickly became one of the most popular and competitive titles in the esports world.</div>
+            <div className="introduce font-Montserrat">
               <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-dota2">
                 <span className="key">Connect</span>
                 <span className="value">Click Here</span>
@@ -112,17 +112,17 @@ export default function Home() {
             </div>  
           </div>
           <div className="game-img-wrap game-img-wrap1">
-            <img src='https://neoxa.net/wp-content/uploads/elementor/thumbs/rust-neoxa-image-qdeq0174d82jzr8jybkmg9qrslg0s04l89t7rfnaio.jpeg' />
+            <img src='https://f403.org/wp-content/uploads/2022/08/474206-750x750.jpg' />
           </div>
         </div>
         <div className="game-item">
           <div className="game-img-wrap game-img-wrap2">
-            <img src='https://neoxa.net/wp-content/uploads/elementor/thumbs/rust-neoxa-image-qdeq0174d82jzr8jybkmg9qrslg0s04l89t7rfnaio.jpeg' />
+            <img src='https://game8.vn/media/202203/images/1403-naraka-2022-6.jpg' />
           </div>
           <div className="game-text-wrap game-text-wrap2">
-            <h2>Naraka</h2>
-            <div className="game-text-content">Naraka: Bladepoint is an exciting and visually stunning multiplayer action game developed and published by 24 Entertainment. Set in a mythical world inspired by ancient Eastern legends, Naraka offers a unique and intense battle royale experience.</div>
-            <div className="introduce">
+            <h2 className="font-Zen">Naraka</h2>
+            <div className="game-text-content font-Montserrat">Naraka: Bladepoint is an exciting and visually stunning multiplayer action game developed and published by 24 Entertainment. Set in a mythical world inspired by ancient Eastern legends, Naraka offers a unique and intense battle royale experience.</div>
+            <div className="introduce font-Montserrat">
               <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-naraka">
                 <span className="key">Connect</span>
                 <span className="value">Click Here</span>
@@ -132,9 +132,9 @@ export default function Home() {
         </div>
         <div className="game-item">
           <div className="game-text-wrap game-text-wrap1">
-            <h2>League of Legends</h2>
-            <div className="game-text-content">GamingPass is an important part of the Gaming ecosystem, and buying and using it can give you high Gaming rewards!</div>
-            <div className="introduce">
+            <h2 className="font-Zen">League of Legends</h2>
+            <div className="game-text-content font-Montserrat">GamingPass is an important part of the Gaming ecosystem, and buying and using it can give you high Gaming rewards!</div>
+            <div className="introduce font-Montserrat">
               <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-league-of-legends">
                 <span className="key">Connect</span>
                 <span className="value">Click Here</span>
@@ -142,7 +142,7 @@ export default function Home() {
             </div>  
           </div>
           <div className="game-img-wrap game-img-wrap1">
-            <img src='https://neoxa.net/wp-content/uploads/elementor/thumbs/rust-neoxa-image-qdeq0174d82jzr8jybkmg9qrslg0s04l89t7rfnaio.jpeg' />
+            <img src='https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt02dd32b665c25036/5f4defe8b553152466d1b21a/Homepage_World_1.jpg' />
           </div>
         </div>
         <div className="game-item">
@@ -150,9 +150,9 @@ export default function Home() {
             <img src='https://neoxa.net/wp-content/uploads/elementor/thumbs/rust-neoxa-image-qdeq0174d82jzr8jybkmg9qrslg0s04l89t7rfnaio.jpeg' />
           </div>
           <div className="game-text-wrap game-text-wrap2">
-            <h2>Rust</h2>
-            <div className="game-text-content">Rust is an open-world multiplayer survival game developed by Facepunch Studios. Released in 2013, it has gained immense popularity for its challenging and unforgiving gameplay.</div>
-            <div className="introduce">
+            <h2 className="font-Zen">Rust</h2>
+            <div className="game-text-content font-Montserrat">Rust is an open-world multiplayer survival game developed by Facepunch Studios. Released in 2013, it has gained immense popularity for its challenging and unforgiving gameplay.</div>
+            <div className="introduce font-Montserrat">
               <a target="_blank" href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-rust">
                 <span className="key">Connect</span>
                 <span className="value">Click Here</span>
@@ -160,27 +160,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <div className="left">
-          <p>Gaming</p>
-          <div className="nav-wrap">
-            {navList.map((item, index) => {
-              return (
-                <div className="nav-item" key={index} onClick={() => {setNavIndex(index)}}>
-                  <div>{item.icon}</div>
-                  <div className="nav-item-title">{item.title}</div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-        <div className="right">
-          {navIndex == 0 && <Store />}
-          { navIndex == 1 && <Pubg />}
-          { navIndex == 2 && <Dota2 /> }
-          { navIndex == 3 && <Naraka /> }
-          { navIndex == 4 && <Lol /> }
-          { navIndex == 5 && <Rust /> }
-        </div> */}
+       
       </div>
       <Footer />
     </main>
