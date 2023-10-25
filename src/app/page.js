@@ -10,6 +10,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Nav from './components/nav'
 import { Roboto } from 'next/font/google'
+import ball from '../assets/ball.webp'
 import { useIsVisible } from './hooks/useIsVisible'
 
 const roboto = Roboto({
@@ -33,19 +34,20 @@ export default function Home() {
       <Nav />
       
       <div className="welcome">
-        <div className="welcome-right">
-          <h4 className={`welcome-title font-Zen`}>Welcome to GoodmorningNetwork</h4>
+        <div className="welcome-right" style={{width: '75%'}}>
+          <h4 className={`welcome-title font-Zen`}>Welcome to Goodmorning Network</h4>
           <p className="welcome-content font-Montserrat">GoodmorningNetwork is redefining the boundaries between digital and real assets, marking another significant milestone in the maturation of blockchain technology.</p>
         </div>
         <div ref={ref1} className={`welcome-right ${isVisible1 ? "animate__animated animate__rotateIn": ""}`}>
-          <img src='https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png' />
+          <Image src={ball} />
         </div>
       </div>
 
       <div className="welcome">
         
           <div ref={ref2} className={`welcome-right ${isVisible2 ? "animate__animated animate__rotateIn": ""}`} >
-            <img src="https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png" alt=''></img> 
+            {/* <img src="https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png" alt=''></img>  */}
+            <Image src={ball} />
           </div>
       
         <div className="welcome-left" style={{width:'75%'}}>
@@ -80,7 +82,8 @@ export default function Home() {
           </div>
         </div>
         <div ref={ref3} className={`welcome-right ${isVisible3 ? "animate__animated animate__rotateIn": ""}`}>
-          <img src='https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png' />
+          {/* <img src='https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png' /> */}
+          <Image src={ball} />
         </div>
         
       </div>
@@ -88,8 +91,18 @@ export default function Home() {
       <div className="welcome">
         
           <div ref={ref4} className={`welcome-right ${isVisible4 ? "animate__animated animate__rotateIn": ""}`} >
-            <img src="https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png" alt=''></img> 
+            {/* <img src="https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png" alt=''></img>  */}
+            <Image src={ball} />
           </div>
+      
+        <div className="welcome-left" style={{width:'75%'}}>
+          <h4 className="welcome-title font-Zen">Real World Assets (RWA)</h4>
+          <p className="welcome-content font-Montserrat" >RWA crypto is different from other cryptocurrencies such as Bitcoin and Ethereum, which are not backed by any physical asset or commodity.</p>
+         
+        </div>
+      </div>
+
+      <div className="welcome">
       
         <div className="welcome-left" style={{width:'75%'}}>
           <h4 className="welcome-title font-Zen">About</h4>
@@ -114,6 +127,10 @@ export default function Home() {
               </ a>
             </div> 
           </div>
+        </div>
+        <div ref={ref4} className={`welcome-right ${isVisible4 ? "animate__animated animate__rotateIn": ""}`} >
+          {/* <img src="https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png" alt=''></img>  */}
+          <Image src={ball} />
         </div>
       </div>
 
