@@ -66,7 +66,7 @@ export default function Home() {
             </div>  
           </div>
           <div className="game-img-wrap game-img-wrap1">
-            <Image width={719} height={719} className="store-img" 
+            <Image width={'50vw'} height={'50vw'} className="store-img" 
               // src={'https://img.cryptopolitan.com/wp-content/uploads/2023/09/photo_5794422769847484159_y.jpg'}
               src={store}
             />
@@ -74,7 +74,7 @@ export default function Home() {
         </div>
         <div className="game-item">
           <div className="game-img-wrap game-img-wrap2">
-            <Image width={719} height={719} className="store-img" 
+            <Image width={'50vw'} height={'50vw'} className="store-img" 
               //  src='https://www.gamespot.com/a/uploads/scale_landscape/1597/15971423/3925371-4760795642-33311.jpg'
               src={pubg}
              />
@@ -102,7 +102,7 @@ export default function Home() {
             </div>  
           </div>
           <div className="game-img-wrap game-img-wrap1">
-            <Image width={719} height={719} 
+            <Image width={'100%'} height={'50vw'} 
               // src='https://f403.org/wp-content/uploads/2022/08/474206-750x750.jpg'
               src={dota2}
             />
@@ -110,9 +110,9 @@ export default function Home() {
         </div>
         <div className="game-item">
           <div className="game-img-wrap game-img-wrap2">
-            <Image width={719} height={719} 
-            //  src='https://game8.vn/media/202203/images/1403-naraka-2022-6.jpg' 
-              src={naraka}
+            <img width={'100%'} height={'50vw'}
+              src='https://game8.vn/media/202203/images/1403-naraka-2022-6.jpg' 
+              // src={naraka}
             />
           </div>
           <div className="game-text-wrap game-text-wrap2">
@@ -138,7 +138,11 @@ export default function Home() {
             </div>  
           </div>
           <div className="game-img-wrap game-img-wrap1">
-            <Image width={719} height={719} 
+            <Image
+              style={{
+                width: '100%',
+                height: '50vw'
+              }}
               src={lol}
               // src='https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt02dd32b665c25036/5f4defe8b553152466d1b21a/Homepage_World_1.jpg' 
             />
@@ -146,7 +150,10 @@ export default function Home() {
         </div>
         <div className="game-item">
           <div className="game-img-wrap game-img-wrap2">
-            <Image width={719} height={719} 
+            <Image style={{
+                width: '100%',
+                height: '50vw'
+              }}
               // src='https://neoxa.net/wp-content/uploads/elementor/thumbs/rust-neoxa-image-qdeq0174d82jzr8jybkmg9qrslg0s04l89t7rfnaio.jpeg' 
               src={rust}
             />

@@ -5,20 +5,23 @@
 
 .welcome {
   display: flex;
-  padding: 40px 100px 0 100px;
+  /* padding: 40px 100px 0 100px; */
+  padding: 40px 7% 0 7%;
   align-items: center;
 }
 
 .welcome-title {
   flex:1;
-  font-size: 60px;
-  line-height: 60px;
+  // font-size: 60px;
+  // line-height: 60px;
+  font-size: (60/1400)vw;
+  line-height: (60/1400)vw;
 }
 
 .welcome-content {
-  margin-top: 20px;
+  margin-top: (20/1400)vw;
   line-height: 30px;
-  font-size: 20px;
+  font-size: (20/1400)vw;
   color: rgb(191, 199, 212);
 }
 
@@ -34,6 +37,10 @@
 .game-list-item {
   margin-right: 20px;
   cursor: pointer;
+}
+
+.game-list-item span {
+  font-size: 1vw;
 }
 
 .game-list-item-icon {

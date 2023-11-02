@@ -1,12 +1,19 @@
 .footer {
   padding: 20px 0 20px 0;
-  width: 1024px;   
+  // width: 1024px;   
+  width: 80vw;
+}
+
+.copy-left {
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .copy-right {
     display: flex;
     align-items: center;
-    width: 450px;
+    width: (450/1400)rem;
     img {
       width: 60px;
       height: 60px;
@@ -14,7 +21,7 @@
     }
 
     span {
-      font-size: 16px;    
+      font-size: (16/1400)rem;
     }
 }
 
@@ -31,7 +38,7 @@
 
   .bottom-nav {
     display: flex;
-    height: 56px;
+    height: (56/1400)rem;
   }
 }
 
@@ -47,7 +54,7 @@
 }
 
 .copy-text {
-    margin-top: 40px;
+    
 
     .copy-text-item {
         margin-top: 20px;

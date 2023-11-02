@@ -1,6 +1,6 @@
 "use client"; // This is a client component
 
-import './styles.css'
+import './styles.scss'
 import 'animate.css';
 
 import React, { useEffect, useRef, useState } from 'react';
@@ -28,6 +28,15 @@ export default function Home() {
   const isVisible3 = useIsVisible(ref3);
   const ref4 = useRef();
   const isVisible4 = useIsVisible(ref4);
+
+  // const setRem = async ()=>{
+  //   await require('lib-flexible')
+  // }
+  
+  // useEffect(()=>{
+  //   setRem()
+  //   window.addEventListener('resize',setRem)
+  // })
 
   return (
     <main className="flex flex-col items-center justify-between p-1" >

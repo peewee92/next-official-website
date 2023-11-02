@@ -3,6 +3,8 @@ import "../globals.css";
 import Image from "next/image";
 import Link from "next/link";
 
+// import Navbar from "./navBar";
+
 export default function Nav() {
   return (
     <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left top-nav">
@@ -57,6 +59,7 @@ export default function Nav() {
           </span>
         </h2>
       </Link>
+      {/* <Navbar /> */}
     </div>
   );
 }

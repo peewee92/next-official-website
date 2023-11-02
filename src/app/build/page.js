@@ -1,6 +1,6 @@
 "use client"; // This is a client component
 
-import '../styles.css'
+import '../styles.scss'
 import 'animate.css';
 
 import React, { useEffect, useRef, useState } from 'react';
@@ -9,6 +9,7 @@ import Footer from '../components/footer'
 import Image from 'next/image'
 import Link from 'next/link'
 import Nav from '../components/nav'
+import ball from '../../assets/ball.webp'
 import { useIsVisible } from '../hooks/useIsVisible'
 
 export default function Project() {
@@ -29,7 +30,7 @@ export default function Project() {
       <div className="welcome">
         
           <div ref={ref4} className={`welcome-right ${isVisible4 ? "animate__animated animate__rotateIn": ""}`} >
-            <img src="https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png" alt=''></img> 
+            <Image src={ball} />
           </div>
       
         <div className="welcome-left" style={{width:'75%'}}>
@@ -45,14 +46,14 @@ export default function Project() {
           <p className="welcome-content font-Montserrat">An Innovative Cryptocurrency Platform Bridging the Gap Between the Real and Virtual Worlds!</p>
         </div>
         <div ref={ref1} className={`welcome-right ${isVisible1 ? "animate__animated animate__rotateIn": ""}`}>
-          <img src='https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png' />
+          <Image src={ball} />
         </div>
       </div>
 
       <div className="welcome">
         
           <div ref={ref2} className={`welcome-right ${isVisible2 ? "animate__animated animate__rotateIn": ""}`} >
-            <img src="https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png" alt=''></img> 
+            <Image src={ball} /> 
           </div>
       
         <div className="welcome-left" style={{width:'75%'}}>
@@ -82,7 +83,8 @@ export default function Project() {
           </div> */}
         </div>
         <div ref={ref3} className={`welcome-right ${isVisible3 ? "animate__animated animate__rotateIn": ""}`}>
-          <img src='https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png' />
+          {/* <img src='https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png' /> */}
+          <Image src={ball} />
         </div>
         
       </div>
