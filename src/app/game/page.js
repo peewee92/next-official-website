@@ -53,26 +53,26 @@ export default function Home() {
           <h1 className="font-Montserrat">Play2Earn Games</h1>
         </div>
 
-        {/* <div class="relative flex w-full flex-row bg-gray-700 bg-clip-border text-white shadow-md">
-          <div class="md:flex">
-            <div class="relative m-0 lg:w-1/2 shrink-0 overflow-hidden bg-white bg-clip-border text-gray-700 grid place-items-center">
-              <Image src={store} alt="image" class=" w-full object-cover" />
+        {/* <div className="relative flex w-full flex-row bg-gray-700 bg-clip-border text-white shadow-md">
+          <div className="md:flex">
+            <div className="relative m-0 lg:w-1/2 shrink-0 overflow-hidden bg-white bg-clip-border text-gray-700 grid place-items-center">
+              <Image src={store} alt="image" className=" w-full object-cover" />
             </div>
-            <div class="p-6 lg:w-1/2">
+            <div className="p-6 lg:w-1/2">
               <h2 className="font-Zen text-pink-500 text-2xl">How-to-Store</h2>
               <div className="game-text-content font-Montserrat mt-8">
                 GamingPass is an important part of the Gaming ecosystem, and
                 buying and using it can give you high Gaming rewards!
               </div>
-              <p class="mb-8 block font-sans text-base font-normal leading-relaxed text-white antialiased">
+              <p className="mb-8 block font-sans text-base font-normal leading-relaxed text-white antialiased">
                 Like so many organizations these days, Autodesk is a company in
                 transition. It was until recently a traditional boxed software
                 company selling licenses. Yet its own business model disruption
                 is only part of the story
               </p>
-              <a class="inline-block" href="#">
+              <a className="inline-block" href="#">
                 <button
-                  class="flex select-none items-center gap-2 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                  className="flex select-none items-center gap-2 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                   type="button"
                 >
                   <a
@@ -86,10 +86,10 @@ export default function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke-width="2"
+                    strokeWidth="2"
                     stroke="currentColor"
                     aria-hidden="true"
-                    class="h-4 w-4"
+                    className="h-4 w-4"
                   >
                     <path
                       strokeLinecap="round"
@@ -103,52 +103,51 @@ export default function Home() {
           </div>
         </div> */}
 
-        <div class="relative flex w-full flex-row bg-gray-700 bg-clip-border text-white shadow-md">
-          <div class="md:flex">
-            <div class="p-6 lg:w-1/2 game-text-wrap">
+        <div className="relative flex w-full flex-row bg-gray-700 bg-clip-border text-white shadow-md">
+          <div className="md:flex">
+            <div className="p-6 lg:w-1/2 game-text-wrap">
               <h2 className="font-Zen text-pink-500 text-2xl">How-to-Store</h2>
               <div className="game-text-content font-Montserrat mt-8">
                 GamingPass is an important part of the Gaming ecosystem, and
                 buying and using it can give you high Gaming rewards!
               </div>
-              <p class="mb-8 block font-Montserrat text-base font-normal leading-relaxed text-white antialiased">
+              <p className="mb-8 block font-Montserrat text-base font-normal leading-relaxed text-white antialiased">
                 Like so many organizations these days, Autodesk is a company in
                 transition. It was until recently a traditional boxed software
                 company selling licenses. Yet its own business model disruption
                 is only part of the story
               </p>
-              <a class="inline-block" href="#">
-                <button
-                  class="flex select-none items-center gap-2 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                  type="button"
-                >
-                  <a
-                    target="_blank"
-                    href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-store"
-                  >
-                    Learn More
-                  </a>
 
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                    class="h-4 w-4"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                    ></path>
-                  </svg>
-                </button>
-              </a>
+              <button
+                className="flex select-none items-center gap-2 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                type="button"
+              >
+                <a
+                  target="_blank"
+                  href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-store"
+                >
+                  Learn More
+                </a>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  className="h-4 w-4"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  ></path>
+                </svg>
+              </button>
             </div>
-            <div class="relative m-0 lg:w-1/2 shrink-0 overflow-hidden bg-white bg-clip-border text-gray-700 grid place-items-center">
-              <Image src={store} alt="image" class=" w-full object-cover" />
+            <div className="relative m-0 lg:w-1/2 shrink-0 overflow-hidden bg-white bg-clip-border text-gray-700 grid place-items-center">
+              <Image src={store} alt="image" className=" w-full object-cover" />
             </div>
           </div>
         </div>
@@ -179,69 +178,63 @@ export default function Home() {
             />
           </div>
         </div> */}
-        <div class="relative flex w-full flex-row bg-gray-700 bg-clip-border text-white shadow-md">
-          <div class="md:flex">
-          <div class="relative m-0 lg:w-1/2 shrink-0 overflow-hidden bg-white bg-clip-border text-gray-700 grid place-items-center">
-              <Image src={pubg} alt="image" class=" w-full object-cover" />
+        <div className="relative flex w-full flex-row bg-gray-700 bg-clip-border text-white shadow-md">
+          <div className="md:flex">
+            <div className="relative m-0 lg:w-1/2 shrink-0 overflow-hidden bg-white bg-clip-border text-gray-700 grid place-items-center">
+              <Image src={pubg} alt="image" className=" w-full object-cover" />
             </div>
-            <div class="p-6 lg:w-1/2 game-text-wrap">
+            <div className="p-6 lg:w-1/2 game-text-wrap">
               <h2 className="font-Zen text-pink-500 text-2xl">Pubg</h2>
               {/* <div className="game-text-content font-Montserrat mt-8">
                 GamingPass is an important part of the Gaming ecosystem, and
                 buying and using it can give you high Gaming rewards!
               </div> */}
-              <p class="mt-8 mb-8 block text-base leading-relaxed text-white antialiased font-Montserrat">
+              <p className="mt-8 mb-8 block text-base leading-relaxed text-white antialiased font-Montserrat">
                 layerUnknown's Battlegrounds (PUBG) is a highly popular battle
                 royale game that has taken the gaming world by storm. Developed
                 and published by PUBG Corporation, a subsidiary of South Korean
                 video game company Bluehole, PUBG offers an exhilarating and
                 intense gaming experience.
               </p>
-              <a
-                class="inline-block"
-                target="_blank"
-                href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-pubg"
+
+              <button
+                className="flex select-none items-center gap-2 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                type="button"
               >
-                <button
-                  class="flex select-none items-center gap-2 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                  type="button"
+                <a
+                  target="_blank"
+                  href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-pubg"
                 >
-                  {/* <a
-                    target="_blank"
-                    href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-pubg"
-                  > */}
                   Learn More
-                  {/* </a> */}
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                    class="h-4 w-4"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                    ></path>
-                  </svg>
-                </button>
-              </a>
+                </a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  className="h-4 w-4"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  ></path>
+                </svg>
+              </button>
             </div>
-            
           </div>
         </div>
 
-        <div class="relative flex w-full flex-row bg-gray-700 bg-clip-border text-white shadow-md">
-          <div class="md:flex flex-row-reverse">
-            <div class="relative m-0 lg:w-1/2 shrink-0 overflow-hidden bg-white bg-clip-border text-gray-700 grid place-items-center">
-              <Image src={dota2} alt="image" class=" w-full object-cover" />
+        <div className="relative flex w-full flex-row bg-gray-700 bg-clip-border text-white shadow-md">
+          <div className="md:flex flex-row-reverse">
+            <div className="relative m-0 lg:w-1/2 shrink-0 overflow-hidden bg-white bg-clip-border text-gray-700 grid place-items-center">
+              <Image src={dota2} alt="image" className=" w-full object-cover" />
             </div>
-            <div class="p-6 lg:w-1/2 game-text-wrap">
-              <h2 className="font-Zen text-pink-500 text-2xl">Dota 2</h2>  
-              <p class="mt-8 mb-8 block font-Montserrat text-base leading-relaxed text-white antialiased font-Montserrat">
+            <div className="p-6 lg:w-1/2 game-text-wrap">
+              <h2 className="font-Zen text-pink-500 text-2xl">Dota 2</h2>
+              <p className="mt-8 mb-8 block font-Montserrat text-base leading-relaxed text-white antialiased font-Montserrat">
                 Dota 2 stands as a renowned multiplayer online battle arena
                 (MOBA) game developed by Valve Corporation. Players immerse
                 themselves in this strategic, team-based experience, assuming
@@ -249,37 +242,35 @@ export default function Home() {
                 heroes possess diverse abilities and unique playstyles,
                 requiring tactical skill and teamwork to emerge victorious.
               </p>
-              <a class="inline-block" href="#">
-                <button
-                  class="flex select-none items-center gap-2 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                  type="button"
-                >
-                  <a
-                    target="_blank"
-                    href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-dota2"
-                  >
-                    Learn More
-                  </a>
 
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                    class="h-4 w-4"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                    ></path>
-                  </svg>
-                </button>
-              </a>
+              <button
+                className="flex select-none items-center gap-2 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                type="button"
+              >
+                <a
+                  target="_blank"
+                  href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-dota2"
+                >
+                  Learn More
+                </a>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  className="h-4 w-4"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  ></path>
+                </svg>
+              </button>
             </div>
-            
           </div>
         </div>
 
@@ -341,53 +332,56 @@ export default function Home() {
             />
           </div>
         </div> */}
-        <div class="relative flex w-full flex-row bg-gray-700 bg-clip-border text-white shadow-md">
-          <div class="md:flex">
-            <div class="p-6 lg:w-1/2 game-text-wrap">
+        <div className="relative flex w-full flex-row bg-gray-700 bg-clip-border text-white shadow-md">
+          <div className="md:flex">
+            <div className="p-6 lg:w-1/2 game-text-wrap">
               <h2 className="font-Zen text-pink-500 text-2xl">Naraka</h2>
               {/* <div className="game-text-content font-Montserrat mt-8">
                 GamingPass is an important part of the Gaming ecosystem, and
                 buying and using it can give you high Gaming rewards!
               </div> */}
-              <p class="mt-8 mb-8 block font-Montserrat text-base font-normal leading-relaxed text-white antialiased">
+              <p className="mt-8 mb-8 block font-Montserrat text-base font-normal leading-relaxed text-white antialiased">
                 Naraka: Bladepoint is an exciting and visually stunning
                 multiplayer action game developed and published by 24
                 Entertainment. Set in a mythical world inspired by ancient
                 Eastern legends, Naraka offers a unique and intense battle
                 royale experience.
               </p>
-              <a class="inline-block" href="#">
-                <button
-                  class="flex select-none items-center gap-2 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                  type="button"
-                >
-                  <a
-                    target="_blank"
-                    href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-naraka"
-                  >
-                    Learn More
-                  </a>
 
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                    class="h-4 w-4"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                    ></path>
-                  </svg>
-                </button>
-              </a>
+              <button
+                className="flex select-none items-center gap-2 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                type="button"
+              >
+                <a
+                  target="_blank"
+                  href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-naraka"
+                >
+                  Learn More
+                </a>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  className="h-4 w-4"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  ></path>
+                </svg>
+              </button>
             </div>
-            <div class="relative m-0 lg:w-1/2 shrink-0 overflow-hidden bg-white bg-clip-border text-gray-700 grid place-items-center">
-              <Image src={naraka} alt="image" class=" w-full object-cover" />
+            <div className="relative m-0 lg:w-1/2 shrink-0 overflow-hidden bg-white bg-clip-border text-gray-700 grid place-items-center">
+              <Image
+                src={naraka}
+                alt="image"
+                className=" w-full object-cover"
+              />
             </div>
           </div>
         </div>
@@ -420,54 +414,52 @@ export default function Home() {
             </div>
           </div>
         </div> */}
-        <div class="relative flex w-full flex-row bg-gray-700 bg-clip-border text-white shadow-md">
-          <div class="md:flex">
-            <div class="relative m-0 lg:w-1/2 shrink-0 overflow-hidden bg-white bg-clip-border text-gray-700 grid place-items-center">
-              <Image src={lol} alt="image" class=" w-full object-cover" />
+        <div className="relative flex w-full flex-row bg-gray-700 bg-clip-border text-white shadow-md">
+          <div className="md:flex">
+            <div className="relative m-0 lg:w-1/2 shrink-0 overflow-hidden bg-white bg-clip-border text-gray-700 grid place-items-center">
+              <Image src={lol} alt="image" className=" w-full object-cover" />
             </div>
-            <div class="p-6 lg:w-1/2 game-text-wrap">
+            <div className="p-6 lg:w-1/2 game-text-wrap">
               <h2 className="font-Zen text-pink-500 text-2xl">
                 League of Legends
               </h2>
 
-              <p class="mt-8 mb-8 block font-Montserrat text-base font-normal leading-relaxed text-white antialiased">
+              <p className="mt-8 mb-8 block font-Montserrat text-base font-normal leading-relaxed text-white antialiased">
                 League of Legends (LoL) is a highly acclaimed multiplayer online
                 battle arena (MOBA) game developed by Riot Games. Set in the
                 fictional world of Runeterra, players assume the role of
                 powerful champions with unique abilities and engage in
                 team-based battles.
               </p>
-              <a class="inline-block" href="#">
-                <button
-                  class="flex select-none items-center gap-2 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                  type="button"
-                >
-                  <a
-                    target="_blank"
-                    href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-league-of-legends"
-                  >
-                    Learn More
-                  </a>
 
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                    class="h-4 w-4"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                    ></path>
-                  </svg>
-                </button>
-              </a>
+              <button
+                className="flex select-none items-center gap-2 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                type="button"
+              >
+                <a
+                  target="_blank"
+                  href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-league-of-legends"
+                >
+                  Learn More
+                </a>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  className="h-4 w-4"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  ></path>
+                </svg>
+              </button>
             </div>
-           
           </div>
         </div>
         {/* <div className="game-item">
@@ -497,48 +489,47 @@ export default function Home() {
             />
           </div>
         </div> */}
-        <div class="relative flex w-full flex-row bg-gray-700 bg-clip-border text-white shadow-md">
-          <div class="md:flex">
-            <div class="p-6 lg:w-1/2 game-text-wrap">
+        <div className="relative flex w-full flex-row bg-gray-700 bg-clip-border text-white shadow-md">
+          <div className="md:flex">
+            <div className="p-6 lg:w-1/2 game-text-wrap">
               <h2 className="font-Zen text-pink-500 text-2xl">Rust</h2>
 
-              <p class="mt-8 mb-8 block font-sans text-base font-normal leading-relaxed text-white antialiased">
+              <p className="mt-8 mb-8 block font-sans text-base font-normal leading-relaxed text-white antialiased">
                 Rust is an open-world multiplayer survival game developed by
                 Facepunch Studios. Released in 2013, it has gained immense
                 popularity for its challenging and unforgiving gameplay.
               </p>
-              <a class="inline-block" href="#">
-                <button
-                  class="flex select-none items-center gap-2 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                  type="button"
-                >
-                  <a
-                    target="_blank"
-                    href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-rust"
-                  >
-                    Learn More
-                  </a>
 
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                    class="h-4 w-4"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                    ></path>
-                  </svg>
-                </button>
-              </a>
+              <button
+                className="flex select-none items-center gap-2 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                type="button"
+              >
+                <a
+                  target="_blank"
+                  href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-rust"
+                >
+                  Learn More
+                </a>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  className="h-4 w-4"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  ></path>
+                </svg>
+              </button>
             </div>
-            <div class="relative m-0 lg:w-1/2 shrink-0 overflow-hidden bg-white bg-clip-border text-gray-700 grid place-items-center">
-              <Image src={rust} alt="image" class=" w-full object-cover" />
+            <div className="relative m-0 lg:w-1/2 shrink-0 overflow-hidden bg-white bg-clip-border text-gray-700 grid place-items-center">
+              <Image src={rust} alt="image" className=" w-full object-cover" />
             </div>
           </div>
         </div>

@@ -58,7 +58,7 @@ export default function Home() {
             isVisible1 ? "animate__animated animate__rotateIn" : ""
           }`}
         >
-          <Image src={ball} />
+          <Image src={ball} alt="ball" />
         </div>
       </div>
 
@@ -70,7 +70,7 @@ export default function Home() {
           }`}
         >
           {/* <img src="https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png" alt=''></img>  */}
-          <Image src={ball} />
+          <Image src={ball} alt="ball" />
         </div>
 
         <div className="welcome-left" style={{ width: "75%" }}>
@@ -130,7 +130,7 @@ export default function Home() {
           }`}
         >
           {/* <img src='https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png' /> */}
-          <Image src={ball} />
+          <Image src={ball} alt="ball" />
         </div>
       </div>
 
@@ -142,7 +142,7 @@ export default function Home() {
           }`}
         >
           {/* <img src="https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png" alt=''></img>  */}
-          <Image src={ball} />
+          <Image src={ball} alt="ball" />
         </div>
 
         <div className="welcome-left" style={{ width: "75%" }}>
@@ -195,7 +195,7 @@ export default function Home() {
           }`}
         >
           {/* <img src="https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png" alt=''></img>  */}
-          <Image src={ball} />
+          <Image src={ball} alt="ball" />
         </div>
       </div>
 

@@ -30,7 +30,7 @@ export default function Project() {
       <div className="welcome">
         
           <div ref={ref4} className={`welcome-right ${isVisible4 ? "animate__animated animate__rotateIn": ""}`} >
-            <Image src={ball} />
+            <Image src={ball} alt="ball" />
           </div>
       
         <div className="welcome-left" style={{width:'75%'}}>
@@ -46,14 +46,14 @@ export default function Project() {
           <p className="welcome-content font-Montserrat">An Innovative Cryptocurrency Platform Bridging the Gap Between the Real and Virtual Worlds!</p>
         </div>
         <div ref={ref1} className={`welcome-right ${isVisible1 ? "animate__animated animate__rotateIn": ""}`}>
-          <Image src={ball} />
+        <Image src={ball} alt="ball" />
         </div>
       </div>
 
       <div className="welcome">
         
           <div ref={ref2} className={`welcome-right ${isVisible2 ? "animate__animated animate__rotateIn": ""}`} >
-            <Image src={ball} /> 
+          <Image src={ball} alt="ball" />
           </div>
       
         <div className="welcome-left" style={{width:'75%'}}>
@@ -84,7 +84,7 @@ export default function Project() {
         </div>
         <div ref={ref3} className={`welcome-right ${isVisible3 ? "animate__animated animate__rotateIn": ""}`}>
           {/* <img src='https://framerusercontent.com/images/sS4OsevI9FcvYGmNbrpBsl6T8.png' /> */}
-          <Image src={ball} />
+          <Image src={ball} alt="ball" />
         </div>
         
       </div>
