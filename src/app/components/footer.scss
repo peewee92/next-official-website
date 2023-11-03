@@ -1,7 +1,7 @@
 .footer {
   padding: 20px 0 20px 0;
   // width: 1024px;   
-  width: 80vw;
+  width: 100vw;
 }
 
 .copy-left {
@@ -44,13 +44,13 @@
 
 .social {
   display: flex;
+}
 
-  .social-item {
-    margin-right: 32px;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-  }
+.social-item {
+  margin-right: 32px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
 }
 
 .copy-text {
