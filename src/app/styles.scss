@@ -9,6 +9,24 @@
   padding: 40px 7% 0 7%;
   align-items: center;
 }
+@media screen and (max-width: 768px) {
+  
+  .width-large {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .welcome {
+    flex-direction: column;
+  }
+  .welcome2 {
+    flex-direction: column-reverse;
+  }
+  .width-large {
+    width: 100%;
+  }
+}
 
 .welcome-title {
   flex:1;
@@ -35,7 +53,7 @@
 }
 
 .game-list-item {
-  margin-right: 20px;
+  margin-right: 0.4rem;
   cursor: pointer;
 }
 

@@ -41,7 +41,7 @@ export default function Home() {
     <main className="flex flex-col items-center justify-between p-1">
       <Nav />
     
-      <div className="welcome">
+      <div className="welcome " >
         <div className="welcome-right" style={{ width: "75%" }}>
           <h4 className={`welcome-title font-Zen`}>
             Welcome to Goodmorning Network
@@ -62,7 +62,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="welcome">
+      <div className="welcome welcome2">
         <div
           ref={ref2}
           className={`welcome-right ${
@@ -87,7 +87,7 @@ export default function Home() {
       </div>
 
       <div className="welcome">
-        <div className="welcome-left">
+        <div className="welcome-left width-large">
           <h4 className="welcome-title font-Zen">GameMining</h4>
           <p className="welcome-content font-Montserrat">
             We've put together a guide so you can easily know how to get
@@ -134,7 +134,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="welcome">
+      <div className="welcome welcome2">
         <div
           ref={ref4}
           className={`welcome-right ${
