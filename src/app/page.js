@@ -41,7 +41,7 @@ export default function Home() {
     <main className="flex flex-col items-center justify-between p-1">
       <Nav />
     
-      <div className="welcome " >
+      <div className="welcome" >
         <div className="welcome-right" style={{ width: "75%" }}>
           <h4 className={`welcome-title font-Zen`}>
             Welcome to Goodmorning Network
@@ -58,7 +58,7 @@ export default function Home() {
             isVisible1 ? "animate__animated animate__rotateIn" : ""
           }`}
         >
-          <Image src={ball} alt="ball" />
+          <Image src={ball} alt="ball" width={'4rem'} />
         </div>
       </div>
 

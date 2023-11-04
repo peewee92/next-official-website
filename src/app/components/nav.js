@@ -2,13 +2,13 @@ import "../globals.css";
 
 import Image from "next/image";
 import Link from "next/link";
-
-// import Navbar from "./navBar";
+import Navbar from "./navBar";
 
 export default function Nav() {
   return (
-    <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left top-nav">
-      <div className="logo-wrap">
+    <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left top-nav w-full">
+      <Navbar />
+      {/* <div className="logo-wrap">
         <div className="logo-img-wrap">
           <img
             alt="logo"
@@ -58,8 +58,7 @@ export default function Nav() {
             -&gt;
           </span>
         </h2>
-      </Link>
-      {/* <Navbar /> */}
+      </Link> */}
     </div>
   );
 }
