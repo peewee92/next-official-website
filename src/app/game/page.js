@@ -50,7 +50,7 @@ export default function Home() {
       <div className="game-wrap">
         <div className="header">
           <h6>HAVE A LOOK AT OUR</h6>
-          <h1 className="font-Montserrat">Play2Earn Games</h1>
+          <h1 className="font-Montserrat">Play 2 Earn Games</h1>
         </div>
 
         {/* <div className="relative flex w-full flex-row bg-gray-700 bg-clip-border text-white shadow-md">

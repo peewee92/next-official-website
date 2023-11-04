@@ -24,7 +24,10 @@
     flex-direction: column-reverse;
   }
   .width-large {
-    width: 100%;
+    width: 75%;
+  }
+  .game-list {
+    flex-direction: column;
   }
 }
 
@@ -53,7 +56,7 @@
 }
 
 .game-list-item {
-  margin-right: 0.4rem;
+  margin-right: 1rem;
   cursor: pointer;
 }
 

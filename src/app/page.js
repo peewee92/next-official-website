@@ -94,7 +94,7 @@ export default function Home() {
             involved in GoodmorningNetwork's GameMining!
           </p>
           <div className="game-list">
-            <div className="game-list-item">
+            <div className="game-list-item font-Montserrat">
               <a
                 target="_blank"
                 href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-pubg"
@@ -103,7 +103,7 @@ export default function Home() {
                 <span>How-to-Pubg</span>
               </a>
             </div>
-            <div className="game-list-item">
+            <div className="game-list-item font-Montserrat">
               <a
                 target="_blank"
                 href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-dota2"
@@ -112,7 +112,7 @@ export default function Home() {
                 <span>how-to-Dota2</span>
               </a>
             </div>
-            <div className="game-list-item">
+            <div className="game-list-item font-Montserrat">
               <a
                 target="_blank"
                 href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-naraka"
