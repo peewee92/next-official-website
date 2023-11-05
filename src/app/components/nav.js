@@ -4,9 +4,10 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "./navBar";
 
+// style={{position: 'fixed'}}
 export default function Nav() {
   return (
-    <div className="mb-32 grid text-center lg:max-w-6xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left top-nav w-full">
+    <div className="mb-32 grid text-center lg:max-w-7xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left top-nav w-full">
       <Navbar />
       {/* <div className="logo-wrap">
         <div className="logo-img-wrap">
