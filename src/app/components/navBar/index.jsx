@@ -175,7 +175,7 @@ const Navbar = () => {
               <h2 className={``}>Gaming</h2>
             </Link>
             <Link
-              href="/bulid"
+              href="/build"
               class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
               rel="noopener noreferrer"
             >
