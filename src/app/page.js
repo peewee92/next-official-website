@@ -11,7 +11,8 @@ import Link from "next/link";
 import Nav from "./components/nav";
 import { Roboto } from "next/font/google";
 import ball from "../assets/ball.webp";
-import { useIsVisible } from "./hooks/useIsVisible";
+
+// import { useIsVisible } from "./hooks/useIsVisible";
 
 const roboto = Roboto({
   weight: "400",
@@ -19,14 +20,14 @@ const roboto = Roboto({
 });
 
 export default function Home() {
-  const ref1 = useRef();
-  const isVisible1 = useIsVisible(ref1);
-  const ref2 = useRef();
-  const isVisible2 = useIsVisible(ref2);
-  const ref3 = useRef();
-  const isVisible3 = useIsVisible(ref3);
-  const ref4 = useRef();
-  const isVisible4 = useIsVisible(ref4);
+  // const ref1 = useRef();
+  // const isVisible1 = useIsVisible(ref1);
+  // const ref2 = useRef();
+  // const isVisible2 = useIsVisible(ref2);
+  // const ref3 = useRef();
+  // const isVisible3 = useIsVisible(ref3);
+  // const ref4 = useRef();
+  // const isVisible4 = useIsVisible(ref4);
 
   return (
     <main className="flex flex-col items-center justify-between p-1">
