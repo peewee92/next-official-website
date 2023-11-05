@@ -82,14 +82,16 @@ const Navbar = () => {
                 <img
                   class="h-8 w-auto"
                   src="https://www.gitbook.com/cdn-cgi/image/width=40,dpr=2,height=40,fit=contain,format=auto/https%3A%2F%2F399320087-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FziVkHDEVQ3vSm4tXD199%252Ficon%252FPrd7Sq6KvqwgomszzNin%252F%25E5%25BE%25AE%25E4%25BF%25A1%25E5%259B%25BE%25E7%2589%2587_20230820211010.png%3Falt%3Dmedia%26token%3Dcf4e4ec8-76c9-4140-a861-fa00508676e5"
-                  alt="Your Company"
+                  alt="GoodMorningNetWork"
                 />
+                <span style={{marginLeft: '10px'}}>GoodMorningNetWork</span>
               </div>
               <div class="hidden sm:ml-6 sm:block">
                 <div class="flex space-x-3">
                   <Link
                     href="/"
-                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-600"
+                    // className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-600"
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
                     rel="noopener noreferrer"
                   >
                     <h2 className={``}>Home</h2>
