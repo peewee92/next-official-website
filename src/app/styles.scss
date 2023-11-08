@@ -71,3 +71,52 @@
 .welcome-rwa {
   margin-bottom: 80px;
 }
+
+
+.btn {
+  background-color: #6b185d;
+  border-radius: 18px;
+  color: #fff;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 991px) {
+  .hero__img svg {
+      display: none;
+      opacity: .5;
+      top: unset;
+      transform: translateY(-85%);
+      z-index: -1;
+      right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__img svg {
+      transform: translateY(-100%);
+  }
+}
+
+@media (max-width: 640px) {
+  .hero__title {
+      font-size: 5rem;
+  }
+  .hero__subtitle {
+      font-size: 2rem;
+      line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__title {
+      font-size: 3rem;
+      line-height: 4.25rem;
+  }
+  .hero__subtitle {
+      font-size: 1.75rem;
+      line-height: 2rem;
+  }
+}

@@ -11,8 +11,9 @@ import Link from "next/link";
 import Nav from "./components/nav";
 import { Roboto } from "next/font/google";
 import ball from "../assets/ball.webp";
-
-// import { useIsVisible } from "./hooks/useIsVisible";
+import comet from "../assets/comet.png";
+import cube from "../assets/cube.svg";
+import { useIsVisible } from "./hooks/useIsVisible";
 
 const roboto = Roboto({
   weight: "400",
@@ -33,7 +34,7 @@ export default function Home() {
     <main className="flex flex-col items-center justify-between p-1">
       <Nav />
 
-      <div class="flex mt-20" style={{height: '400px'}}>
+      <div class="flex mt-20" style={{ height: "400px" }}>
         <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
           <div>
             <h4 className={`welcome-title font-Zen`}>
@@ -47,7 +48,7 @@ export default function Home() {
             <div class="flex justify-center lg:justify-start mt-6">
               <a
                 target="_blank"
-                class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400"
+                class="mx-4 btn px-4 py-3 btn text-gray-900 text-xs font-semibold rounded hover:bg-gray-400"
                 href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/"
               >
                 Learn More
@@ -55,11 +56,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div
-          class="hidden lg:block lg:w-1/2"
-          // style={{ clipPath: "polygon(10% 0, 100% 0%, 100% 100%, 0 100%)" }}
-        >
-          <div
+        <div class="hidden lg:block lg:w-1/2">
+          {/* <div
             class="h-full object-cover"
             style={{
               backgroundImage:
@@ -67,15 +65,19 @@ export default function Home() {
             }}
           >
             <div class="h-full bg-black opacity-25"></div>
+          </div> */}
+          {/* <Image src={cube} /> */}
+          <div class="col-lg-7 hero__img hero__height">
+            <Image src={comet}
+         />
+            
           </div>
         </div>
       </div>
 
-      <div class="flex mt-20 w-full" style={{height: '400px'}}>
-      <div
-          class="hidden lg:block lg:w-1/2"
-        >
-          <div
+      <div class="flex mt-20 w-full" style={{ height: "400px" }}>
+        <div class="hidden lg:block lg:w-1/2">
+          {/* <div
             class="h-full object-cover"
             style={{
               backgroundImage:
@@ -83,21 +85,28 @@ export default function Home() {
             }}
           >
             <div class="h-full bg-black opacity-25"></div>
+          </div> */}
+          <div class="col-lg-7 hero__img hero__height rotate">
+            <Image src={comet} />
           </div>
         </div>
         <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
           <div>
-            <h4 className={`welcome-title font-Zen`}>
-              GameMining
-            </h4>
+            <h4 className={`welcome-title font-Zen`}>Gaming Reward coins</h4>
             <p className="welcome-content font-Montserrat">
-              We've put together a guide so you can easily know how to get
-              involved in GoodmorningNetwork's GameMining!
+              {/* We've put together a guide so you can easily know how to get
+              involved in GoodmorningNetwork's GameMining! */}
+              For users who revel in the virtual gaming world,
+              GoodmorningNetwork offers an entirely new way to profit. By
+              playing popular games like PUBG, LOL, NARAKA, DOTA2, and CSGO,
+              users can earn 20% of gaming reward tokens. This not only enhances
+              user engagement but also builds a bridge between the virtual
+              gaming world and the cryptocurrency sphere.
             </p>
             <div class="flex justify-center lg:justify-start mt-6">
               <a
                 target="_blank"
-                class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400"
+                class="mx-4 px-4 btn py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400"
                 href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/gaming/how-to-store"
               >
                 Learn More
@@ -105,23 +114,21 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
       </div>
-     
 
-      <div class="flex mt-20" style={{height: '400px'}}>
+      <div class="flex mt-20" style={{ height: "400px" }}>
         <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
           <div>
             <h4 className="welcome-title font-Zen">Real World Assets (RWA)</h4>
             <p className="welcome-content font-Montserrat">
-              RWA crypto is different from other cryptocurrencies such as Bitcoin
-              and Ethereum, which are not backed by any physical asset or
-              commodity.
+              RWA crypto is different from other cryptocurrencies such as
+              Bitcoin and Ethereum, which are not backed by any physical asset
+              or commodity.
             </p>
             <div class="flex justify-center lg:justify-start mt-6">
               <a
                 target="_blank"
-                class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400"
+                class="mx-4 px-4 btn py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400"
                 href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/about-goodmorningnetwork#real-world-assets-rwa"
               >
                 Learn More
@@ -129,11 +136,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div
-          class="hidden lg:block lg:w-1/2"
-          // style={{ clipPath: "polygon(10% 0, 100% 0%, 100% 100%, 0 100%)" }}
-        >
-          <div
+        <div class="hidden lg:block lg:w-1/2">
+          {/* <div
             class="h-full object-cover"
             style={{
               backgroundImage:
@@ -141,43 +145,33 @@ export default function Home() {
             }}
           >
             <div class="h-full bg-black opacity-25"></div>
-          </div>
+          </div> */}
+          <Image src={comet} />
         </div>
       </div>
 
-      <div class="flex mt-20 w-full" style={{height: '400px'}}>
-      <div
-          class="hidden lg:block lg:w-1/2"
-        >
-          <div
-            class="h-full object-cover"
-            style={{
-              backgroundImage:
-                "url(https://assets-global.website-files.com/637e2b6d602973ea0941d482/652c848e5fe2504d58772a1f_Spotlightbb-p-800.png)",
-            }}
-          >
-            <div class="h-full bg-black opacity-25"></div>
-          </div>
+      <div class="flex mt-20 w-full" style={{ height: "400px" }}>
+        <div class="hidden lg:block lg:w-1/2 rotate">
+          <Image src={comet} width={600} />
         </div>
         <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2 ">
           <div>
-            <h4 className={`welcome-title font-Zen`}>
-            About
-            </h4>
+            <h4 className={`welcome-title font-Zen`}>About</h4>
             <p className="welcome-content font-Montserrat">
-              An Innovative Cryptocurrency Platform Bridging the Gap Between the Real and Virtual Worlds!
+              An Innovative Cryptocurrency Platform Bridging the Gap Between the
+              Real and Virtual Worlds!
             </p>
             <div class="flex justify-center lg:justify-start mt-6">
               <a
                 target="_blank"
-                class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400"
+                class="mx-4 px-4 btn py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400"
                 href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/building/road-map"
               >
                 Road Map
               </a>
               <a
                 target="_blank"
-                class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400"
+                class="mx-4 px-4 btn py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400"
                 href="https://goodmorningnetwork.gitbook.io/goodmorningnetwork/building/white-paper"
               >
                 White Paper
@@ -185,9 +179,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
       </div>
-      
       {/* <div className="welcome">
         <div className="welcome-right" style={{ width: "75%" }}>
           <h4 className={`welcome-title font-Zen`}>
