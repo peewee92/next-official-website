@@ -8,8 +8,11 @@ import React, { useEffect, useRef, useState } from "react";
 import Footer from "./components/footer";
 import Image from "next/image";
 import Link from "next/link";
+import Links from "./components/Links";
 import Nav from "./components/nav";
+import Network from "./components/network";
 import { Roboto } from "next/font/google";
+import TimeLine from "./components/timeLine";
 import ball from "../assets/ball.webp";
 import comet from "../assets/comet.png";
 import cube from "../assets/cube.svg";
@@ -180,6 +183,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+  
+      <TimeLine />
+      <Network />
+      {/* <Links /> */}
       {/* <div className="welcome">
         <div className="welcome-right" style={{ width: "75%" }}>
           <h4 className={`welcome-title font-Zen`}>
